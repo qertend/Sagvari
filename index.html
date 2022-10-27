@@ -4,42 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        h2 {
-            text-decoration: underline;
-        }
-        #Gprojects {
-            width:fit-content;
-            float: inline-start;
-        }
-        #Pprojects {
-            margin-left: 10%;
-            float:left;
-            width: fit-content;
-        }
-        #menu {
-            float: right;
-            width: 10%;
-            text-align: center;
-        }
-        #gitLogo {
-            width: 50px;
-        }
-    </style>
+    <title>qertend's website</title>
+    <link rel="stylesheet" href="mainStyle.css">
 </head>
 <body>
     <div>
-        <div id="Gprojects">
+        <div id="Gprojects" class="divs">
             <h2>Group Projects:</h2>
-            <button onclick="window.open('./tica tac toe/tica tac toe.html')">Tic tac toe</button>
+            <p class="link" onclick="window.open('./tica tac toe/tica tac toe.html')">Tic tac toe</p>
         </div>
-        <div id="Pprojects">
+        <div id="Pprojects" class="divs">
             <h2>Personal Projects:</h2>
-            <button onclick="window.open('./Tanks/tanks.html')">Tanks WIP</button>
+            <p class="link" onclick="window.open('./Tanks/tanks.html')">Tanks (WIP)</p>
         </div>
     </div>
-    <div id="menu">
+    <div id="menu" class="divs">
         <h2>Links:</h2>
         <a href="https://github.com/qertend"><img id="gitLogo" src="Github-logo.png" alt=""></a>
     </div>

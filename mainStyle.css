@@ -1,0 +1,31 @@
+body {
+    background-color: #090909;
+    color: white;
+}
+.divs {
+    background-color: #131313;
+    padding: 10px;
+}
+.link:hover {
+    cursor: pointer;
+}
+h2 {
+    text-decoration: underline;
+}
+#Gprojects {
+    width:fit-content;
+    float: inline-start;
+}
+#Pprojects {
+    margin-left: 10%;
+    float:left;
+    width: fit-content;
+}
+#menu {
+    float: right;
+    width: 10%;
+    text-align: center;
+}
+#gitLogo {
+    width: 50px;
+}
