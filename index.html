@@ -6,22 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        button {
-            width: auto;
-            height: 30px;
-        }
         h2 {
             text-decoration: underline;
         }
-    </style>
-    <script>
-        function ttt() {
-            window.open("https://github.com/KovacsDenes/csoport/tree/main/tica%20tac%20toe")
+        #Gprojects {
+            width:fit-content;
+            float: inline-start;
         }
-    </script>
+        #Pprojects {
+            margin-left: 10%;
+            float:left;
+            width: fit-content;
+        }
+        #menu {
+            float: right;
+            width: 10%;
+            text-align: center;
+        }
+        #gitLogo {
+            width: 50px;
+        }
+    </style>
 </head>
 <body>
-    <h2>Projects</h2>
-    <Button onclick="ttt()">Tica tac toe</Button>
+    <div>
+        <div id="Gprojects">
+            <h2>Group Projects:</h2>
+            <button onclick="window.open('./tica tac toe/tica tac toe.html')">Tic tac toe</button>
+        </div>
+        <div id="Pprojects">
+            <h2>Personal Projects:</h2>
+            <button onclick="window.open('./Tanks/tanks.html')">Tanks WIP</button>
+        </div>
+    </div>
+    <div id="menu">
+        <h2>Links:</h2>
+        <a href="https://github.com/qertend"><img id="gitLogo" src="Github-logo.png" alt=""></a>
+    </div>
 </body>
 </html>
