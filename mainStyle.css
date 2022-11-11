@@ -8,16 +8,23 @@ body {
     border-radius: 5px;
 }
 .link {
+    margin: auto;
+    margin-bottom: 10px;
     text-align: center;
     background-color: #606060;
     padding: 5px;
     border-radius: 5px;
+    width: 95%;
+    user-select: none;
 }
 .link:hover {
     cursor: pointer;
 }
 h2 {
     text-decoration: underline;
+}
+p {
+    margin: 0;
 }
 #Gprojects {
     width:fit-content;
@@ -27,6 +34,14 @@ h2 {
     margin-left: 10%;
     float:left;
     width: fit-content;
+}
+.tankDropdownLink {
+    margin-top: 5px;
+    display: none;
+    user-select: none;
+}
+.dropdownLink:hover {
+    cursor: pointer;
 }
 #menu {
     float: right;

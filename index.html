@@ -11,11 +11,15 @@
     <div>
         <div id="Gprojects" class="divs">
             <h2>Group Projects:</h2>
-            <p class="link" onclick="window.open('https://kovacsdenes.github.io/csoport/tica%20tac%20toe/tica%20tac%20toe.html')">Tic tac toe</p>
+            <p id="ttt" class="link" onclick="window.open('https://kovacsdenes.github.io/csoport/tica%20tac%20toe/tica%20tac%20toe.html')">Tic tac toe</p>
         </div>
         <div id="Pprojects" class="divs">
             <h2>Personal Projects:</h2>
-            <p class="link" onclick="window.open('https://qertend.github.io/Projects/Tanks/tanks.html')">Tanks (Early access)</p>
+            <div id="tanktankDropdown" class="link">
+            <p id="tanks"  onclick="tankDropdown()">Tanks (Early access)</p>
+                <p class="tankDropdownLink" onclick="window.open('https://qertend.github.io/Projects/Tanks/tanks.html')">Shared screen</p>
+                <p class="tankDropdownLink">Local multi [Coming soon]</p>
+            </div>            
         </div>
     </div>
     <div id="menu" class="divs">
@@ -23,4 +27,5 @@
         <a href="https://github.com/qertend"><img id="gitLogo" src="Github-logo.png" alt=""></a>
     </div>
 </body>
+<script src="main.js"></script>
 </html>
